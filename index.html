@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="login3.html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: auto;
+        }
+        .intro {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+        .menu-item h2, .menu-item p {
+            margin: 0 0 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .menu-item {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .menu-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3><a href="login3.html">Login</a></h3>
+        <img src="https://img.freepik.com/free-vector/flat-design-cafe-signage-template_23-2149308994.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721001600&semt=ais_user" alt="logo" class="logo">
+        <h1>Welcome to Our Cafe</h1>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p>Discover our delicious menu items crafted with love and passion.</p>
+        </div>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="https://img.freepik.com/free-photo/cup-coffee-table-front-street-with-city-lights-background_188544-10293.jpg" alt="Coffee">
+                <h2>The Perfect Coffee</h2>
+                <p>Rating: 4.5/5</p>
+                <p>Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular beverages in the world.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/26/ebdf270d-8e2b-43de-ae89-03bdfd6ece46_128251.JPG" alt="Pizza">
+                <h2>Freshly Baked Pizza</h2>
+                <p>Rating: 5/5</p>
+                <p>Modern pizza evolved from similar flatbread dishes in Naples, Italy, between the 16th and mid-18th century. The word pizza was first documented in AD 997 in Gaeta.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://static.toiimg.com/photo/104368492.cms" alt="Tea">
+                <h2>The Finest Tea</h2>
+                <p>Rating: 4.5/5</p>
+                <p>Tea is a fragrant beverage made from the dried or fresh leaves of the evergreen shrub Camellia sinensis, which is indigenous to China, India, and other East Asian nations.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2023/5/9/chocolate-pastry.jpg" alt="Pastries">
+                <h2>Chocolate Volcano Pastry</h2>
+                <p>Rating: 4.6/5</p>
+                <p>In 1886, American cooks began adding chocolate to the cake batter to make the first chocolate cakes in that country. The Duff Company of Pittsburgh introduced "Devil's food" chocolate cake mixes in the mid-1930s.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.allrecipes.com/thmb/e8uotDI18ieXNBY0KpmtGKbxMRM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41.jpg" alt="Mac and Cheese">
+                <h2>Mac and Cheese</h2>
+                <p>Rating: 4.3/5</p>
+                <p>Macaroni and cheese is a dish of macaroni and a cheese sauce, most commonly cheddar sauce. Its origins trace back to cheese and pasta casseroles dating to the 14th century in Italy and medieval England.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cafe. All rights reserved to the owner.</p>
+    </footer>
+</body>
+</html>
